@@ -13,6 +13,6 @@ Side Nav-bar
 Product Page
 ![image](https://user-images.githubusercontent.com/67374046/163394218-043bb287-3874-4dd3-a4c6-5625a46fc9f2.png)
 
-Support Page
+Contact Page
 ![image](https://user-images.githubusercontent.com/67374046/163394329-3d265997-f97b-4b4c-b353-76c4d83e63df.png)
 ![image](https://user-images.githubusercontent.com/67374046/163394398-6ee178fb-746d-4f55-a241-cf72e4afe3cf.png)
