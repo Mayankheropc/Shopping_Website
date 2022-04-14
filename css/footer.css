@@ -1,0 +1,22 @@
+/* Footer */
+footer{
+    left: 0;
+    bottom: 0;
+    position: relative;
+    height: 75px;
+}
+footer::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .8;
+    z-index: -1;
+}
+footer p{
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 2px;
+}

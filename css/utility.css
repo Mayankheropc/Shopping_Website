@@ -1,0 +1,51 @@
+/* Utility Classes */
+.main-heading{
+    font-size: 3.8rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px;
+    color: rgb(22, 20, 75);
+}
+.h-primary{
+    font-size: 3.1rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px;
+    color: rgb(24, 22, 51);
+}
+.h-secondary{
+    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px;
+}
+.center{
+    text-align: center;
+    margin-top: 2px;
+}
+.btn{
+    padding: 2px 8px;
+    border: 2px solid white;
+    background-color: turquoise;
+    margin: 18px;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    font-family: 'Baloo Tamma 2';
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(54, 207, 192);
+}
+.btn-submit{
+    padding: 2px 8px;
+    border: 2px solid #c58a39;
+    background-color: rgb(196 199 199);
+    margin: 8px;
+    border-radius: 7px;
+    cursor: pointer
+}
+.btn-submit:hover{
+    background-color: rgb(179 189 189);
+}
+.btn-submit p{
+    font-size: 1.2rem;
+    font-family: 'Baloo Tamma 2';
+    font-weight: bold;
+}

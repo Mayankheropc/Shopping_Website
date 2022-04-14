@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo - to test the navbar</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Montserrat&family=Open+Sans&display=swap"
+        rel="stylesheet">
+<body>
+    <script id="replace_with_navbar" src="nav.js"></script> // for adding the header
+    <h3 style="margin-top: 300px;"> hello </h3>
+    <script id="replace_with_footer" src="foot.js"></script> // for adding the footer
+</body>
+</html>
+
+java script code - 
+fetch('filename.html')
+    .then(res => res.text())
+    .then(text => {
+        let oldelem = document.querySelector("script#replace_with_footer");
+        let newelem = document.createElement("footer");
+        newelem.innerHTML = text;
+        oldelem.parentNode.replaceChild(newelem, oldelem);
+    })

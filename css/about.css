@@ -1,0 +1,9 @@
+/* CSS RESET for about.html */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin-top: 80px;
+}

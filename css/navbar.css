@@ -1,0 +1,130 @@
+/* NAVIGATION BAR */
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+#navbar{
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #BBC1C5, #2F4153);
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid black;
+}
+/* Navigation Bar: Logo & Image */
+#logo{
+    margin: 5px 30px;
+}
+#logo:hover{
+    background-color: cadetblue;
+    border-radius: 25px;
+}
+
+#logo img{
+    margin: 5px 8px;
+    padding: 2px;
+    height: 60px;
+    align-content: center;
+}
+
+/* Navigation Bar: List Styling */
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+#navbar ul li a{
+    color: rgb(87, 14, 109);
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Baloo Tamma 2';
+}
+
+#navbar ul li a:hover{
+    color: rgb(55, 33, 82);
+    background-color: rgba(172, 198, 202, 0.932);
+}
+.menu-lines{
+    color: #a2c7e0;
+    margin-left: auto;
+    margin-right: 30px;
+    font-size: 4.5rem;
+    cursor: pointer;
+    padding: 2px;
+}
+.menu-lines:hover{
+    color: tomato;
+}
+
+/* Side Bar */
+#sidenav{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    z-index: 1;
+    height: 100%;
+    width: 0%;
+    z-index: 3;
+    overflow-x: hidden;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+#sidenav::before{
+    content: "";
+    background: url("../img/background/bg5.jpg") no-repeat center center/cover;
+    opacity: 0.95;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#sidenav .close-btn{
+    margin-top: 15px;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-right: auto;
+    padding: 5px;
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    font-family: 'Baloo Tamma 2';
+}
+#sidenav .close-btn:hover{
+    color: tomato;
+}
+#sidenav h3{
+    font-family: 'Baloo Tamma 2';
+    font-size: 2rem;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 3px;
+}
+.links{
+    color: white;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: auto;
+    font-family: 'Baloo Tamma 2';
+}
+.links:hover{
+    color: rgb(77, 64, 114);
+    font-size: 2rem;
+}
